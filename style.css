@@ -115,10 +115,11 @@ select:invalid {
 .top {
   font-weight: lighter;
   display: flex;
+  flex-direction: column;
 }
 
-#state {
-  margin-left: 40px;
+.top-zip label {
+  display: block;
 }
 
 textarea {
@@ -192,6 +193,7 @@ footer {
   .top-zip {
     padding-top: 15px;
     display: flex;
+    flex-direction: row;
   }
 
   .top label,

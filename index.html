@@ -62,7 +62,13 @@
 
             <div class="top">
               <label for="number">Phone Number</label>
-              <input required type="tel" id="number" name="user-number" /><br />
+              <input
+                required
+                type="tel"
+                id="number"
+                name="user-number"
+                placeholder="(___)-___-____"
+              /><br />
             </div>
 
             <div class="top">
@@ -72,17 +78,29 @@
                 type="text"
                 id="address"
                 name="user-address"
+                placeholder="42 Wallaby Way"
               /><br />
             </div>
 
             <div class="top">
               <label for="city">City</label>
-              <input required type="text" id="city" name="user-city" /><br />
+              <input
+                required
+                type="text"
+                id="city"
+                name="user-city"
+                placeholder="Sydney"
+              /><br />
             </div>
 
             <div class="top">
               <label for="state">State</label>
-              <select id="state" name="user-state" required>
+              <select
+                id="state"
+                name="user-state"
+                placeholder="New South Wales"
+                required
+              >
                 <option
                   value=""
                   disabled="disabled"
@@ -147,7 +165,13 @@
 
             <div class="top-zip">
               <label for="zip">Zip Code</label>
-              <input required type="text" id="zip" name="user-zip" /><br />
+              <input
+                required
+                type="text"
+                id="zip"
+                name="user-zip"
+                placeholder="2000"
+              /><br />
             </div>
           </fieldset>
 
@@ -162,7 +186,7 @@
               <label for="html">HTML News</label><br />
 
               <input type="checkbox" id="css" name="css" value="css-news" />
-              <label for="html">CSS News</label><br />
+              <label for="css">CSS News</label><br />
 
               <input
                 type="checkbox"
@@ -170,22 +194,29 @@
                 name="javascript"
                 value="javascript-news"
               />
-              <label for="html">Javascript News</label><br />
+              <label for="javascript">Javascript News</label><br />
 
               <h4>Newsletter format</h4>
 
-              <input type="radio" id="html2" name="html2" value="html-2" />
-              <label for="html">HTML</label><br />
+              <input type="radio" id="html2" name="circle" value="html-2" />
+              <label for="html2">HTML</label><br />
 
-              <input type="radio" id="plain" name="plain" value="plain-text" />
-              <label for="html">Plain Text</label><br />
+              <input type="radio" id="plain" name="circle" value="plain-text" />
+              <label for="plain">Plain Text</label><br />
 
-              <h4>Other topics you'd like to hear about</h4>
-
-              <textarea rows="5" cols="60" name="other-topics"> </textarea
+              <label for="other-topics"
+                >Other topics you'd like to hear about</label
+              ><br />
+              <textarea
+                id="other-topics"
+                rows="5"
+                cols="60"
+                name="other-topics"
+                placeholder="Don't be shy..."
+              ></textarea
               ><br />
 
-              <button class="btn">Sign Up</button>
+              <button type="submit" class="btn">Sign Up</button>
             </fieldset>
           </div>
         </form>
