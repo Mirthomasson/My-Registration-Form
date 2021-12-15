@@ -206,4 +206,8 @@ footer {
   .top select {
     flex-basis: 75%;
   }
+
+  .top-zip {
+    flex-basis: 25%;
+  }
 }
