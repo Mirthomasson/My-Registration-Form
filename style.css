@@ -133,6 +133,7 @@ input:focus,
 select:focus,
 textarea:focus {
   outline: 4px solid blue;
+  transition: outline 1s;
 }
 
 .btn {
@@ -201,7 +202,8 @@ footer {
     flex-basis: 25%;
   }
 
-  .top input {
+  .top input,
+  .top select {
     flex-basis: 75%;
   }
 }
